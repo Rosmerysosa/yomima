@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 2px;;
+    margin: 0;
+    text-decoration: none;
+
+    list-style: none ;
+}
+* body { 
+	background-color:#ffffff;
+}
+
+    .menu{
+    background-color: #ec9e51;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: .5rem 2rem;
+    font-size: 30px;
+    
+
+}
+   
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    margin-right: 2rem;
+
+}
+
+.menu a:hover{
+    color:#000; 
+    
+}
+
+
+.menu a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+.cuatro img{
+    max-width: 100%;
+    margin-bottom: .5em;
+    display: block;
+    outline: 2px solid #9c9c9c;
+    outline-offset: -10px;
+    
+}
+
+.cuatro{
+    columns:6 150px;
+    column-gap: 0.5em ;
+    
+    }
+.cuatro{
+    padding:5px;
+    margin:20px;
+}
+
+.logo img {
+    width: 200px;
+    margin: 0px 0px 0px -500px;
+}
+.menu a.active {  
+    color: #fff;
+    background-color:#000 ;
+    border-radius: 5px;
+    }  
